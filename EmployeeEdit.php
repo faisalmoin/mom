@@ -44,7 +44,7 @@ $SQL ="select * from employee WHERE ID='".$id."'";
       
    
                             
-                            <div class="col-sm-3 col-md-3">Employee Code</div>
+                            <div class="col-sm-3 col-md-3">Code</div>
                             <div class="col-sm-3 col-md-3"><input type="text" id="empcode" name="empcode" class="form-control" autocomplete="off" value="<?php echo $row['EmployeeCode'];?>" /></div>
                             <div class="col-sm-3 col-md-3">&nbsp;</div>
                             <div class="col-sm-3 col-md-3">&nbsp;</div>
