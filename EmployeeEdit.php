@@ -51,7 +51,7 @@ $SQL ="select * from employee WHERE ID='".$id."'";
                             
                         </div>
                         <div class="form-group">
-                            <div class="col-sm-3 col-md-3">Employe Name</div>
+                            <div class="col-sm-3 col-md-3">Employ Name</div>
                             <div class="col-sm-3 col-md-3"><input type="text" name="empname" class="form-control" autocomplete="off" value="<?php echo $row['EmployeeName'];?>"/></div>
                             
                             
